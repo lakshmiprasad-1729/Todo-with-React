@@ -1,4 +1,5 @@
 import AddTodo from './components/AddTodo'
+import Todos from './components/Todos'
 import './index.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     
     <div className='bg-gray-600 w-[100dvw] h-[100dvh]'>
     <AddTodo/>
+    <Todos/>
     </div>
   )
 }
